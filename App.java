@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-public class App {
+public class App{
     public static void main(String[] args) throws Exception {
         Scanner leia = new Scanner(System.in);
         ArrayList<String> listaCompras = new ArrayList<>();
@@ -25,7 +25,7 @@ public class App {
                         System.out.println("""
                                 EScolha a opcao desejada:
                                 1-Adicionar um item a lista \n
-                                """;);
+                                """);
 
                     }while(opcao != 5);
                 }
