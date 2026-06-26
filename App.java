@@ -7,6 +7,7 @@ public class App{
         int opcaoLista = 0;
         int opcao = 0;
         do{
+            //trtert
             try{
             System.out.println("""
             Escolha uma opcao
